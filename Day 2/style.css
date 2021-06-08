@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-letter {
+  font-size: 1.2rem;
+  margin-left: 350px;
+  line-height: 1.5rem;
+}
+
+h2 {
+  margin-left: 540px;
+  font-size: 1.5rem;
+}
