@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Courier New", Courier, monospace; */
+}
+
+.formData {
+  margin: 10px auto;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 29.7%;
+}
+.container {
+  /* border: 2px solid red; */
+
+  height: 35px;
+  margin: 10px auto;
+}
+
+.item_name,
+.item_calorie {
+  width: 49%;
+  height: 35px;
+  padding-left: 5px;
+  font-size: 1.1rem;
+
+  font-weight: 150px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+.item_calorie {
+  margin-left: 8px;
+}
+
+.add_item {
+  height: 40px;
+  font-size: 1.1rem;
+  background-color: #0652dd;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: rgb(10, 10, 219);
+  cursor: pointer;
+}
+
+.card {
+  /* border: 1px solid grey; */
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #ff7738, #fff200);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.delete {
+  width: 80px;
+  padding: 7px;
+  margin-top: 18px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.delete:hover {
+  background-color: rgb(184, 12, 12);
+}
+
+.edit {
+  width: 80px;
+  padding: 7px;
+  margin-top: 18px;
+  margin-left: 20px;
+  font-size: 1rem;
+  background-color: rgb(20, 187, 20);
+  color: white;
+  border: none;
+}
+
+.edit:hover {
+  background-color: rgb(184, 12, 12);
+}
