@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.App button {
+  padding: 20px;
+  margin: 10px auto;
+  background-color: cyan;
+  border: none;
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
