@@ -1,0 +1,35 @@
+
+//to declare variables
+
+let a:string = "Vaibhav";
+let b:number = 29;
+let c:boolean = false;
+let d:undefined = undefined;
+let e:null = null;
+let f:any = 29;
+
+//to declare array
+let a:number[]=[1,2,3,4];
+let a:(number|string)=[1,2,"hello",3,4];
+
+//to declare Objects
+interface User{
+    name: string,
+    age: number
+}
+
+const user:User={
+    name:"Vaibhav",
+    age: 19
+}
+
+//custom data type
+
+type Booking = "Booked" | "Not booked";
+let seat:Booking = "Booked";
+
+//functions
+
+function add(a:number, b:number):number{
+    return a+b;
+}

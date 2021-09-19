@@ -51,15 +51,6 @@ function App() {
               </div>
             </div>
             <div className="lower">
-              <div className="nav">
-                <ul>
-                  <li>Hourly</li>
-                  <li>Daily</li>
-                  <li>Details</li>
-                  <li>Precipitation</li>
-                </ul>
-              </div>
-
               <div className="details">
                 <section className="items">
                   <h6 className="details-para">NOW</h6>
